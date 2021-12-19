@@ -1,0 +1,26 @@
+{
+  "name": "parking_lot",
+  "version": "1.0.0",
+  "description": "Parking Lot",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "file-mode": "node src/index.js",
+    "build": "node scripts/build.js",
+    "help": "node src/config/config.js"
+  },
+  "author": "Tushar Sahu <tusharshahu77@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "3.1.0",
+    "chalk": "3.0.0",
+    "eslint": "6.6.0",
+    "nyc": "14.1.1",
+    "parse-gitignore": "1.0.1",
+    "pkg": "4.4.0",
+    "shelljs": "0.8.3"
+  }
+}
